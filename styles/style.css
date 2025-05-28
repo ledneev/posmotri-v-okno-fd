@@ -199,6 +199,7 @@ ol {
 }
 
 .button:active {
+  text-decoration: none;
   background: #545050;
 }
 
@@ -219,13 +220,13 @@ ol {
 .search-form__submit-button {
   justify-self: end;
   align-self: end;
-  padding: 6px 73.5px;
+  padding: 5px 73.5px;
 }
 
 /* ЛЕВАЯ КОЛОННА */
 
 .title {
-  margin-bottom: 26px;
+  margin-bottom: 20px;
   font-family: Oswald;
   font-weight: 700px;
   font-size: 75px;
@@ -286,7 +287,8 @@ ol {
 }
 
 .content__card-link:active {
-  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  background: #545050;
 }
 
 .content__card-link:focus {
@@ -319,5 +321,6 @@ ol {
 
 .more-button {
   width: 100%;
-  padding: 6px 142px;
+  padding: 5px 142px;
+  font-size: 18px;
 }
